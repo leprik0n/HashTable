@@ -3,7 +3,8 @@ sudo: false
 language: cpp
 
 compiler:
-  -MinGW
+  -clang
+  -gcc
 
 before_install:
   - pip install --user cpp-coveralls
